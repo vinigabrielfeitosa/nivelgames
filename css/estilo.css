@@ -170,6 +170,82 @@ a{
     width: 300px;
 }
 
+.forms{
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  /* border: 1px solid red; */
+  align-items: center;
+  justify-content: center;
+}
+
+.form-contact {
+  width: 35%;
+  font-family: "Arial", Times, serif;
+}
+
+.form-contact-input {
+  width: 100%;
+  color: #292929;
+  font-size: 18px;
+  background-color: #E9E9E9;
+  border: 1px solid #E9E9E9;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  height: 40px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #ccc;
+  border-left: 1px solid #ccc;
+  text-indent: 20px;
+}
+
+.form-contact-textarea {
+  width: 100%;
+  color: #292929;
+  font-size: 18px;
+  background-color: #E9E9E9;
+  border: 1px solid #E9E9E9;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  height: 150px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #ccc;
+  border-left: 1px solid #ccc;
+  text-indent: 20px;
+  padding-top: 16px;
+  padding-left: 0;
+  padding-right: 0;
+  font-family: "Arial", Times, serif;
+  
+}
+
+.form-contact-button {
+  width: 100%;
+  font-size: 18px;
+  border-radius: 4px;
+  color: #fff;
+  height: 40px;
+  opacity: .8;
+  margin-bottom: 20px;
+  cursor: pointer;
+  background: #007bff;
+  display: block;
+  border: none;
+  transition: 1s;
+}
+
+.form-contact-button:hover {
+  opacity: 1;
+}
+
+.form-group{
+  color: white;
+}
+
 .subbanner1{
     display: flex;
     flex-direction: row;
@@ -334,14 +410,6 @@ a{
 
 }
 
-
-.formulario{
-  color: white;
-  margin-top: 20px;
-  text-align: center;
-  width: 100%;
-  border: 1px solid green;
-}
 
 /* CARDS */
 
@@ -546,6 +614,10 @@ a{
         margin-bottom: auto;
     }
 
+    .form-contact{
+      width: 100%;
+    }
+
     .card{
         width: 160px;
         height: 120px;
@@ -615,7 +687,7 @@ a{
       text-align: center;
       margin: 0;
       width: 100%;
-      border: 1px solid red;
+      /* border: 1px solid red; */
     }
 
     .quemsomos img{
@@ -637,7 +709,7 @@ a{
         width: 100%;
         text-align: center;
         color: white;
-        border: 1px solid red;
+        /* border: 1px solid red; */
         margin: 0;
       }
 
@@ -654,7 +726,7 @@ a{
         text-align: center;
         margin: 0;
         width: 100%;
-        border: 1px solid red;
+        /* border: 1px solid red; */
       }
 
       #jogosqs{
@@ -663,6 +735,6 @@ a{
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-        border: 1px solid red;
+        /* border: 1px solid red; */
       }
 }
